@@ -1013,6 +1013,14 @@ url("./fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("wof
 .bi-person-x-fill::before { content: "\f4df"; }
 .bi-person-x::before { content: "\f4e0"; }
 .bi-person::before { content: "\f4e1"; }
+
+.bi.phone { unicode-bidi:bidi-override; direction:rtl }
+span.rev.email:before { content:"moc.etisbew" }
+span.rev.email:after { content:"@nhoj :liamE" }
+span.rev.phone:before { content:"987 654 " }
+span.rev.phone:after { content:" 153+ :enohP" }
+
+
 .bi-phone-fill::before { content: "\f4e2"; }
 .bi-phone-landscape-fill::before { content: "\f4e3"; }
 .bi-phone-landscape::before { content: "\f4e4"; }
