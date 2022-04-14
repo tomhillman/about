@@ -680,18 +680,14 @@ progress {
 
 .col {
   flex: 1 0 0%;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
 
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
 .row-cols-auto > * {
   flex: 0 0 auto;
   width: auto;
