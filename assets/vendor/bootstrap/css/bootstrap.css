@@ -687,6 +687,7 @@ progress {
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
+}
 
 .row-cols-auto > * {
   flex: 0 0 auto;
