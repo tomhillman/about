@@ -786,8 +786,8 @@ section {
 span.rev { unicode-bidi:bidi-override; direction:rtl }
 span.rev.eml:before { content:"moc.lia" }
 span.rev.eml:after { content:".samoht" }
-span.rev.pho:before { content:"9046-" }
-span.rev.pho:after { content:"-906" }
+span.rev.pho:before { content:"9046." }
+span.rev.pho:after { content:".906" }
 
 .contact .php-email-form {
   width: 100%;
