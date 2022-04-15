@@ -16,6 +16,13 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- Recaptcha -->
+  <script src='https://www.google.com/recaptcha/api.js'>
+    function onSubmit(token) {
+      document.getElementById("demo-form").submit();
+    }
+  </script>
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -80,12 +87,33 @@
       <div class="container">
         <div class="section-title">
           <h2>About</h2>
-          <p>Thomas has dedicated the past seven years of his career to creating safer transportation networks and more walkable, bikeable, and transit-friendly places. By working with government, private sector, and non-profit stakeholders to develop transportaiton plans, policies, and programs, he has helped decisionmakers to guide infrastructure investments in alignment with community values and to increase climate and social resilience.</p>
+          <p>Thomas has dedicated the past seven years of his career to creating places and systems that welcome people of all ages and abilities to move freely and comfortably and enjoy a high quality of life while protecting the environment. By working with government, private sector, and non-profit stakeholders to develop transportation plans, policies, and programs, he helps decisionmakers guide infrastructure investments that align with their community's values.</p>
           <br>
-          <p>He has managed a diverse array of transportation projects including Vision Zero, bikeshare, and active transportation efforts. He has helped lead State Highway Safety Plans, Vision Zero Action Plans, and Safe Routes to School plans; conducted complex safety, demographic and economic analyses; and planned public transit routes, fares, and schedules. In addition, he has evaluated transportation programs on behalf of cities and Metropolitan Planning Organizations.</p>
+          <p>He has managed a diverse array of transportation projects including Vision Zero, bikeshare, micromobility, design guidance, and wayfinding efforts. He has helped lead State Highway Safety Plans, Vision Zero Action Plans, and Safe Routes to School plans; conducted complex safety, demographic and economic analyses; and planned public transit routes, fares, and schedules. In addition, he has evaluated transportation programs on behalf of cities and Metropolitan Planning Organizations.</p>
           <br>
           <p>Thomas earned his Master's degree in City and Regional Planning, with a focus on transportation, in 2015 from the Edward J. Bloustein School at Rutgers University. He holds a BA in Political Studies with a minor in Latin American Studies from Bard College.</p>
         </div>
+
+        
+
+    <script>
+      window.addEventListener("load", () => {
+        // (B1) REPLACE THE ENTIRE <P> ELEMENT WITH <STRONG>
+        var first = document.getElementById("first");
+        first.outerHTML = "<strong>FOO BAR!</strong>";
+      
+        // (B2) WILL STILL BE A <P>, BUT CONTENT WILL BE CHANGED.
+        var second = document.getElementById("second");
+        second.innerHTML = "<u>FOO</u> <i>BAR</i>";
+      });
+    </script>
+              
+<!--          
+    <form id='demo-form' action="?" method="POST">
+      <button class="g-recaptcha" data-sitekey="6LdRN28fAAAAAOZPDepJpY5G6Hz9v3gTH56b9Gya" onclick="myFunction()">Click Me</button>
+      <br/>
+    </form>
+  -->
 
         <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left" >
           <img src="assets/img/main-img.jpg" class="img-fluid" alt="">
@@ -422,7 +450,7 @@
           <div class="resume-item">
             <h4><i class="bi bi-webcam"></i>&nbsp Pedestrian Safety on Arterial Streets</h4>
             <h5>2021</h5>
-            <p><em>Pedestrian and Bicycle Information Center Webinar Series</em></p>
+            <p><em>Pedestrian and Bicycle Information Center Webinar</em></p>
             <!--<ul>
               <li>Provided overview of current pedestrian safety trends.</l>
               <li>Presented systemic context-sensitive design solutions.</l>
@@ -469,7 +497,7 @@
               <h5>2017 - 2018</h5>
               <p><em>Center for Advanced Infrastructure and Transportation, Piscataway, NJ</em></p>
               <ul>
-                <li>Co-authored annual State Highway Safety Plan including charts, graphs, and technical narrative.</li>
+                <li>Co-authored two annual State Highway Safety Plans including charts, graphs, and technical narrative.</li>
                 <li>Analyzed crashes for and provided technical support to State, MPO, and County, and City safety initiatives.</li>
                 <li>Transformed crash data and coordinated with vendor to maintain online interactive analysis and mapping platform. </li>
                 <li>Delivered 20+ trainings in crash data analysis.</li>
@@ -663,6 +691,29 @@
                   <span class="rev eml"style="color: #173b6c">mg@namllih.n</a></span>
                 </p>
               </div>
+
+<!--
+
+  <div id="welcome" class="panel">
+    <h1>Welcome to Foobar.com!</h1>
+    <p>By clicking "OK" you agree to be awesome every day!</p>
+    <button class="button" id="okButton">OK</button>
+  </div>
+
+  <div id="awesome" class="panel" hidden>
+    <h1>Thanks!</h1>
+    <p>Thank you <strong>so</strong> much for agreeing to be
+    awesome today! Now get out there and do awesome things
+    awesomely to make the world more awesome!</p>
+  </div>
+
+<div class="g-recaptcha" data-sitekey="6LdRN28fAAAAAOZPDepJpY5G6Hz9v3gTH56b9Gya"></div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="updates" id="updates" value="1">
+                <label for="updates" class="form-check-label">View</label>
+              </div>            
+    -->          
+
 
               <div class="linkedin">
                 <a href="https://www.linkedin.com/in/thomas-h-8779a9a" title="LinkedIn"  target="_blank"><i class="bi bi-linkedin"></i></a>

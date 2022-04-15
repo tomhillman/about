@@ -957,3 +957,20 @@ span.rev.pho:after { content:"-906" }
     padding-right: 20px 15px;
   }
 }
+
+.secret {
+  display: none;
+}
+
+.panel {
+  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+  border: 1px solid #22d;
+  padding: 12px;
+  width: 500px;
+  text-align: center;
+}
+
+.button {
+  font: 22px "Open Sans", Helvetica, Arial, sans-serif;
+  padding: 5px 36px;
+}
