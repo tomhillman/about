@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute  ;
   visibility: hidden;
   opacity: 0;
-  right: 50%;
+  align-items: center;
   bottom: 10%;
   z-index: 996;
   background: #fff;
