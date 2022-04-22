@@ -55,7 +55,8 @@ h1, h2, h3, h4, h5, h6 {
 # Scroll Down button
 --------------------------------------------------------------*/
 .scroll-down {
-  position: absolute  ;
+  position: absolute;
+  padding: 0;
   visibility: hidden;
   opacity: 0;
   align-items: center;
@@ -86,6 +87,9 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Scroll Down Button Main
 --------------------------------------------------------------*/
+.scroll-down-main-center{
+  font-size: 0;
+}
 .scroll-down-main {
   position: absolute;
   visibility: visible;
