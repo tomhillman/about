@@ -71,6 +71,39 @@
     })
   }
 
+
+  
+  /**
+   * Scroll Down button
+   */
+   let scrolldown = select('.scroll-down')
+   if (scrolldown) {
+     const toggleScrolldown = () => {
+       if (window.scrollY < 100) {
+         scrolldown.classList.add('active')
+       } else {
+         scrolldown.classList.remove('active')
+       }
+     }
+     window.addEventListener('load', toggleScrolldown)
+     onscroll(document, toggleScrolldown)
+   }
+ 
+  /**
+   * Scroll Down Button Main
+   */
+   let scrolldownmain = select('.scroll-down-main')
+   if (scrolldownmain) {
+     const toggleScrolldownMain = () => {
+       if (window.scrollY > 100) {
+         scrolldownmain.classList.add('active')
+       } else {
+         scrolldownmain.classList.remove('active')
+       }
+     }
+     window.addEventListener('load', toggleScrolldownMain)
+     onscroll(document, toggleScrolldownMain)
+   }
   /**
    * Back to top button
    */
