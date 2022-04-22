@@ -96,15 +96,16 @@ hr:not([size]) {
   height: 1px;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+h7, .h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2;
+
 }
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -114,37 +115,51 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
     font-size: 2rem;
+    line-height: 1.2;
   }
 }
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
     font-size: 1.75rem;
+    line-height: 1.2;
   }
 }
 
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
+  line-height: 1.2;
 }
 @media (min-width: 1200px) {
   h4, .h4 {
     font-size: 1.5rem;
+    line-height: 1.2;
   }
 }
 
 h5, .h5 {
   font-size: 1.25rem;
+  line-height: 1.2;
 }
 
 h6, .h6 {
   font-size: 1rem;
+  line-height: 1.2;
+}
+
+h7, .h7 {
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 2;
 }
 
 p {
