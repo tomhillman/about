@@ -61,21 +61,21 @@ h1, h2, h3, h4, h5, h6 {
   right: 50%;
   bottom: 10%;
   z-index: 996;
-  background: #149ddd;
-  color: #fff;
+  background: #fff;
+  color: #149ddd;
+  font-size: 24px;
+  font-weight: 100;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   transition: all 0.25s;
 }
 .scroll-down i {
-  font-size: 28px;
-  color: #fff;
   line-height: 0;
 }
 .scroll-down:hover {
   background: #2eafec;
-  color: #fff;
+  color: #dff3fc;
 }
 .scroll-down.active {
   visibility: visible;
