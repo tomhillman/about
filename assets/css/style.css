@@ -605,7 +605,7 @@ scroll-fancy::after {
   border-radius: 50px;
   box-sizing: border-box;
 }
-#scroll-fancy08 a span::before
+#scroll-fancy08 a span::before{
   position: absolute;
   top: 10px;
   left: 50%;
