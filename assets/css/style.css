@@ -261,6 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
+
   background: url("https://i.ibb.co/7WCjgKp/hero-bg.jpg") top center;
   /* Original Hero Image Link - self-hosted location
   background: url("../img/hero-bg.jpg") top center; 
