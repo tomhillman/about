@@ -20,6 +20,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
